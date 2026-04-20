@@ -1,0 +1,42 @@
+### Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code
+.vscode/
+*.code-workspace
+
+### macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Logs
+*.log
+logs/
+
+### Spring Boot
+*.jar
+*.war
+*.ear
+
+### Environment / secrets
+.env
+.env.*
+application-local.yml
+application-secrets.yml
+
+### Java
+*.class
+hs_err_pid*
+
+### Flyway
+# Keep migrations in source control — intentionally not ignoring db/migration
